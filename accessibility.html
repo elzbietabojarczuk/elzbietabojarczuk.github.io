@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Accessibility Statement — Elżbieta Bojarczuk</title>
+  <meta name="description" content="WCAG 2.1 Level AA accessibility statement for elzbietabojarczuk.github.io.">
+  <link rel="canonical" href="https://elzbietabojarczuk.github.io/accessibility.html">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,600;0,9..144,700;0,9..144,900;1,9..144,600&family=Hanken+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a href="#main" class="skip-link">Skip to main content</a>
+  <header class="site-header" role="banner">
+    <nav class="nav" aria-label="Main navigation">
+      <a href="index.html" class="nav-logo">Elżbieta Bojarczuk</a>
+      <ul class="nav-links" role="list">
+        <li><a href="index.html">← Back to site</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main" class="doc-page">
+    <div class="container doc-narrow">
+      <div class="section-label" data-index="§">Accessibility</div>
+      <h1 class="doc-title">Accessibility Statement</h1>
+      <p class="doc-meta">Conformance target: WCAG 2.1 Level AA · Last reviewed 26 May 2026</p>
+
+      <p class="lead">Accessibility is the core of my practice, so this site is held to the same standard I design to professionally. It is built to conform with the <a href="https://www.w3.org/TR/WCAG21/" target="_blank" rel="noopener noreferrer">Web Content Accessibility Guidelines (WCAG) 2.1</a> at Level AA.</p>
+
+      <h2 class="doc-h2">Measures taken</h2>
+      <ul class="doc-list">
+        <li>Semantic HTML5 landmarks (<code>header</code>, <code>nav</code>, <code>main</code>, <code>footer</code>) and a logical heading hierarchy.</li>
+        <li>A "skip to main content" link and full keyboard operability with visible focus indicators.</li>
+        <li>ARIA roles and labels on navigation, lists, icons, and interactive controls; decorative graphics marked <code>aria-hidden</code>.</li>
+        <li>Colour contrast meeting or exceeding the 4.5:1 (text) and 3:1 (large text / UI) AA thresholds.</li>
+        <li>Respect for <code>prefers-reduced-motion</code> — animations are disabled for users who request reduced motion.</li>
+        <li>Responsive, reflowable layout down to 320px with no loss of content or function; tap targets ≥ 44px.</li>
+        <li>Text resizing without breakage and content not conveyed by colour alone.</li>
+      </ul>
+
+      <h2 class="doc-h2">Assessment approach</h2>
+      <p>The site is evaluated with automated tooling (axe DevTools) and manual keyboard-only and screen-reader checks. Accessibility is treated as a design constraint from the wireframe stage — the same accessibility-first principle that anchors the SBDAGF methodology.</p>
+
+      <h2 class="doc-h2">Feedback</h2>
+      <p>If you encounter an accessibility barrier, please email <a href="mailto:elzbieta.bojarczuk2@gmail.com">elzbieta.bojarczuk2@gmail.com</a> and I will respond promptly and work to resolve it.</p>
+
+      <p class="doc-back"><a href="index.html">← Return to the site</a></p>
+    </div>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-inner">
+      <span class="footer-logo">Elżbieta Bojarczuk</span>
+      <p>&copy; 2026 Elżbieta Bojarczuk. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
