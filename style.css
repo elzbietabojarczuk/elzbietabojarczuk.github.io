@@ -951,13 +951,17 @@ button { font-family: inherit; }
 .audience-card:hover { background: var(--c-bg); }
 
 .audience-icon {
-  font-family: var(--ff-mono);
-  font-size: 0.8rem;
-  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 0.5rem;
+  background: color-mix(in srgb, var(--c-accent) 10%, transparent);
   color: var(--c-accent);
   margin-bottom: 0.875rem;
-  letter-spacing: 0.05em;
 }
+.audience-icon svg { stroke: var(--c-accent); }
 
 .audience-card h4 {
   font-family: var(--ff-display);
