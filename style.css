@@ -1507,7 +1507,7 @@ a.rec-card:hover, a.rec-card:focus-visible { border-color: var(--c-accent); tran
 .mentor-lead { max-width: 48rem; margin-bottom: 2rem; }
 .mentor-stats {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   border-top: 1px solid var(--c-rule);
   border-bottom: 1px solid var(--c-rule);
   padding: 1.75rem 0;
